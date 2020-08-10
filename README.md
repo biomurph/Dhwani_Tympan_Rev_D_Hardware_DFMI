@@ -1,11 +1,11 @@
 D_Tympan_DFMI_1.0 consisits of PCB design files catering to the requirements of Indian PCB Manufacturers. 
 
 The following are the changes done in the PCB design files (.pcb file) :  
-	*Tabspace*1.Four layered board with power/ gnd planes as folllows:
-		*Tabspace**Tabspace*Top Cu - GND plane   
-		*Tabspace**Tabspace*Second layer(In. Cu 1) - None  
-		*Tabspace**Tabspace*Third layer(In. Cu 2) - 3.3 V power plane  
-		*Tabspace**Tabspace*Bottom Cu - GND plane  
+	1.Four layered board with power/ gnd planes as folllows:
+		 Top Cu - GND plane   
+		Second layer(In. Cu 1) - None  
+		Third layer(In. Cu 2) - 3.3 V power plane  
+		Bottom Cu - GND plane  
 	2.Details about vias:  
 		Through hole vias - 0.6mm/0.4mm  
 		Blind vias ( In. Cu 2 - B. Cu) - 0.45mm/ 0.15mm  
