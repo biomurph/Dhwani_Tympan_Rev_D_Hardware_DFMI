@@ -1,6 +1,7 @@
 D_Tympan_DFMI_1.0 consisits of PCB design files catering to the requirements of Indian PCB Manufacturers. 
 
-The following are the changes done in the PCB design files (.pcb file) :  
+The following are the changes done in the PCB design files (.pcb file):  
+
 	1.Four layered board with power/ gnd planes as follows:
 		Top Cu - GND plane   
 		Second layer(In. Cu 1) - None  
