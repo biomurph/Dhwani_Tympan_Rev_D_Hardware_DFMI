@@ -5,7 +5,7 @@ The following are the changes done in the PCB design files (.pcb file) :
 		Top Cu - GND plane 
 		Second layer(In. Cu 1) - None
 		Third layer(In. Cu 2) - 3.3 V power plane
-		Bottom Cu-GND plane
+		Bottom Cu - GND plane
 	2.Details about vias:
 		Through hole vias - 0.6mm/0.4mm
 		Blind vias ( In. Cu 2 - B. Cu) - 0.45mm/ 0.15mm
