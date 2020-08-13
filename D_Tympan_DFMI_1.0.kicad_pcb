@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 89)
+    (drawings 90)
     (tracks 1615)
     (zones 0)
     (modules 116)
@@ -17,9 +17,9 @@
   )
 
   (layers
-    (0 F.Cu signal hide)
-    (1 In1.Cu signal)
-    (2 In2.Cu mixed hide)
+    (0 F.Cu signal)
+    (1 In1.Cu signal hide)
+    (2 In2.Cu mixed)
     (31 B.Cu signal)
     (32 B.Adhes user)
     (33 F.Adhes user)
@@ -5703,10 +5703,13 @@
     )
   )
 
+  (gr_text "Concern that your copper pour on in2.C is not connected.\nDo a visual check. The 3V3 enters the board from this side (after the fuse)\nI’m not sure that you have the pour continuous. You can adjust the distance to the board edge,\nif that works with the DFM of your board house. Otherwise you may need to adjust traces." (at 109.35 101.48) (layer Eco2.User)
+    (effects (font (size 1 1) (thickness 0.15)) (justify right))
+  )
   (gr_line (start 117.35 64.48) (end 116.85 63.48) (layer Eco2.User) (width 0.15))
   (gr_line (start 108.35 60.98) (end 117.35 64.48) (layer Eco2.User) (width 0.15))
-  (gr_text "Make sure to include this annular ring \nin the GND net.\nYou may need to draw a trace to connect it.\nDo the same for the other microphone" (at 94.85 56.98) (layer Eco2.User)
-    (effects (font (size 1 1) (thickness 0.15)))
+  (gr_text "Make sure to include this annular ring in the GND net.\nYou may need to draw a trace to connect it.\nDo the same for the other microphone.\nThey won’t be happy unless this connection is made" (at 107.35 60.48) (layer Eco2.User)
+    (effects (font (size 1 1) (thickness 0.15)) (justify right))
   )
   (gr_text "Dhwani 1.0\nUTSAAH Lab\nIISc" (at 133.05 52.73) (layer B.SilkS) (tstamp 5F2A2D68)
     (effects (font (size 0.635 0.635) (thickness 0.127)) (justify mirror))
